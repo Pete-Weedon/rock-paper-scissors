@@ -1,6 +1,8 @@
 import random
 #using fuctions to generate random rock/paper/scissors
 
+#my attempt, could get 0,1,2 identified but couldnt get rest to work, had to use google for help
+#and adjust to my needs
 #while True :
     #Take input from the user
     #player = str(input("Enter either (0 for Rock, 1 for Paper, 2 for Scissors):"))
