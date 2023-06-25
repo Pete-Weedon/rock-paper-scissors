@@ -15,16 +15,17 @@ import random
     #RPS_dict = {0:"Rock", 1:"Paper", 2:"Scissors"}
     #print("The computer played", RPS_dict.get(computer))
     #making parameters of game
+
 def game(player, computer):
      if player == computer:
          print("Game Tied!")
      else:
-         if (player == 1 and computer == 3) or (player == 2 and computer == 1) or (player == 3 and  computer == 2):
-              print("You win!")
+         if (player == 0 and computer == 2) or (player == 1 and computer == 0) or (player == 2 and  computer == 1):
+              print("You Win!")
          else:
               print("Computer wins!")
 def choice(x):
-        y = None
+
         if x == 0:
             y = "Rock"
         elif x == 1:
@@ -46,3 +47,4 @@ while playing == True:
        # print(game(player, computer))
     #ask for an input
     #again = input("Play again? n for no, y for yes:")
+
